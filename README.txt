@@ -9,5 +9,5 @@ install.packages("gdata")
 install.packages("e1071")
 install.packages("forecast")
 
-If you have questions regarding the computer code, please contact Vinícius Scher at vinitscher@gmail.com.
+If you have questions regarding the computer code, please contact Vinícius Scher at vinitscher at gmail [dot] com.
 
