@@ -1377,8 +1377,8 @@ barma.fit<- function (y, ar, ma, link, names_phi,names_theta,names_beta,diag,h1,
   z$zstat <- abs(z$coef/stderror)
   z$pvalues <- 2*(1 - pnorm(z$zstat) )
   
-  #z$loglik <- opt$value
-  z$loglik <- opt$value*(n/(n-m))
+  z$loglik <- opt$value
+  #z$loglik <- opt$value*(n/(n-m))
   z$counts <- as.numeric(opt$counts[1])
   #   z$aic <- -2*z$loglik+2*(p1+q1+2)
   #   z$bic <- -2*z$loglik+log(n)*(p1+q1+2)
