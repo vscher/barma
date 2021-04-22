@@ -1,4 +1,4 @@
-Goodness-of-fit tests for beta-ARMA hydrological time series modeling
+# Goodness-of-fit tests for beta-ARMA hydrological time series modeling
 by V. Scher, F. Cribari-Neto, G. Pumi and F.M. Bayer 
 Environmetrics
 
